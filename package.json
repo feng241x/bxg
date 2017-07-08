@@ -1,5 +1,5 @@
 {
-  "name": "bxg",
+  "name": "feng",
   "version": "1.0.0",
   "description": "> 使用前端后分离的开发方式, 最后再用.php文件简化路径\r > 也可以用.php来提取公共部分!",
   "main": "index.js",
@@ -14,5 +14,14 @@
     "font-awesome": "^4.7.0",
     "jquery": "^1.12.4",
     "nprogress": "^0.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huoqishi/bxg-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/huoqishi/bxg-template/issues"
+  },
+  "homepage": "https://github.com/huoqishi/bxg-template#readme"
 }

@@ -30,9 +30,14 @@
                     <input id="pass" type="password" class="form-control" placeholder="密码"
                     value="123456">
                 </div>
-                <a href="./dashboard.html" type="submit" class="btn btn-lg btn-primary btn-block">登 录</a>
+                <button id='sub' type="submit" class="btn btn-lg btn-primary btn-block">登 录</button>
             </form>
         </div>
     </div>
 </body>
 </html>
+<script src='/node_modules/requirejs/require.js'></script>
+<script>
+    require(['/assets/js/config.js','/assets/js/index/login.js'],function(){})
+</script>
+

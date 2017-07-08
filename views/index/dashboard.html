@@ -178,3 +178,17 @@
     </div>
 </body>
 </html>
+<!--1.引入RequireJS-->
+<!--2.配置ReuqireJs-->
+<!--
+    由于，我们每个页面都有可能使用配置 而且配置的内容都差不多
+    所以我们尝试把配置的代码放到统一的js文件中
+-->
+<!--3.引入主模块-->
+<!--4.在主模块引入我们所需要的模块-->
+<script src='/node_modules/requirejs/require.js'></script>
+<script>
+    require(['/assets/js/config.js',
+    '/assets/js/common.js',
+    '/assets/js/index/dashboard.js'])
+</script>
